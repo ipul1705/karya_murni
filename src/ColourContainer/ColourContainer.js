@@ -47,7 +47,7 @@ updateColourHandler = ( event ) => {
         
       
          <Colour
-          //clicked={this.updateColourHandler}
+          
           c1={this.state.colour1.toString()}
           c2={this.state.colour2.toString()}
           c3={this.state.colour3.toString()}
@@ -56,7 +56,6 @@ updateColourHandler = ( event ) => {
       
 
         <Colour
-          clicked={this.updateColourHandler}
           c1={this.state.colour1.toString()}
           c2={this.state.colour2.toString()}
           c3={this.state.colour3.toString()}
